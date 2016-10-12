@@ -1,0 +1,41 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="inputBox">
+        <view class="iconBox">
+            <image src="../../images/zx/icon3.png" class="iconImg" />
+        </view>
+        
+        <input placeholder="建筑面积" maxlength="4" class="are" type="number" />
+        m²
+    </view>
+    <view class="inputBox">
+        <view class="iconBox">
+            <image src="../../images/zx/icon4.png" class="iconImg" />
+        </view>
+        <input placeholder="您的姓名"class="name"/>
+        <view class="iconBox">
+            <image src="../../images/zx/city.png" class="iconImg" />
+        </view>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" mode = "selector">
+            <view class="picker">
+            {{array[index]}}
+            </view>
+        </picker>
+    </view>
+     <view class="inputBox">
+         <view class="iconBox">
+            <image src="../../images/zx/icon5.png" class="iconImg" />
+        </view>
+        <input placeholder="您的电话" maxlength="11" class="are" type="number"/>
+     </view>
+      <view class="inputBox">
+         <view class="iconBox">
+            <image src="../../images/zx/icon6.png" class="iconImg" />
+        </view>
+        <input placeholder="验证码" maxlength="4" class="code"/>
+        <button class="getcodeBtn">点击获取</button>
+     </view>
+     <view class="btnBox">
+        <button class="smBtn">免费领取</button>
+     </view>
+     
+</form>

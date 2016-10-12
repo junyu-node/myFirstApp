@@ -1,0 +1,7 @@
+.listName{
+    height:50px;
+    padding:25px;
+}
+.section{
+    height:100%;
+}

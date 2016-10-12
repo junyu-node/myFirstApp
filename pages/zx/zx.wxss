@@ -1,0 +1,79 @@
+.inputBox{
+    border:1px solid #ccc;
+    margin:20px 10px;
+    padding:5px;
+    font-size:14px;
+    line-height: 20px;
+    border-radius:5px;
+    height:20px;
+    position:relative;
+}
+.iconBox{
+     float:left;
+     width:15%;
+     text-align: center;
+}
+.iconImg{
+    height:20px;
+    width:25px;
+
+}
+.are{
+    width:85%;
+    float:left;
+    margin-right:-20px;
+    line-height: 20px;
+}
+.name{
+    width:35%;
+    margin-right:-1px;
+    border-right:1px solid #ccc;
+    float:left;
+}
+
+.code{
+    width:60%;
+    float:left;
+}
+.getcodeBtn{
+    width:25%;
+    
+    background:#f00;
+    font-size:14px;
+    position: absolute;
+    right:0;
+    top:0;
+    height:30px;
+    color:#fff;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.smBtn{
+    background:#f00;
+    color:#fff;
+}
+
+.btnBox{
+    margin:20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

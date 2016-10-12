@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/topics/topics",
+    "pages/index/index",
+    "pages/logs/logs",
+    
+    "pages/qgz/qgz",
+    "pages/zx/zx"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f00",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+ "tabBar":{
+    "color":"#272636",
+    "selectedColor":"#80bd01",
+    "backgroundColor":"#ccc",
+    "borderStyle":"white",
+    "list":[{
+      "pagePath":"pages/topics/topics",
+      "text":"首页",
+      "iconPath":"images/tabBar/my.png",
+      "selectedIconPath":"images/tabBar/my_hl.png"
+    },{
+      "pagePath":"pages/qgz/qgz",
+      "text":"抢工长",
+      "iconPath":"images/tabBar/list.png",
+      "selectedIconPath":"images/tabBar/list_hl.png"
+    },{
+      "pagePath":"pages/zx/zx",
+      "text":"91装修",
+      "iconPath":"images/tabBar/list.png",
+      "selectedIconPath":"images/tabBar/list_hl.png"
+    }
+      
+    ]
+  },
+  "debug":true
+}

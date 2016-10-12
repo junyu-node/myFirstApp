@@ -1,0 +1,15 @@
+<view class="section">
+  
+  <scroll-view style="height:100%;"  scroll-y="true" bindscrolltolower="lower">
+    <block wx:for="{{listGz}}">
+        <view class="listName">
+            <text class="listName">{{item.name}}</text>
+        </view>
+    </block>
+  </scroll-view>
+    <loading hidden="{{hidden}}">
+        加载中...
+      </loading>
+</view>
+
+

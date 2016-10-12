@@ -1,0 +1,29 @@
+.headtop {
+  background:#ff0;
+  color : #f00
+}
+.slide-image{
+  width:100%;
+}
+
+.newsImg{
+    width:20px;
+    height:20px;
+    margin-right:5px;
+    float:left;
+    padding-right:5px;
+    border-right:1px solid #ccc;
+
+}
+.newsList{
+    border-bottom:1px solid #ccc;
+    padding:5px 10px;
+    overflow:hidden;
+
+
+}
+.newsText{
+    font-size:16px;
+    line-height:20px;
+    float:left;
+}
